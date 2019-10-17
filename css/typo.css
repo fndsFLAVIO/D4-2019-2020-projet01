@@ -14,3 +14,36 @@ footer li{
 font-family: 'Raleway', sans-serif;
 
 }
+
+.titre {
+
+
+font-family: 'Raleway', sans-serif;
+font-size: 60px;
+padding-left: 50px;
+}
+
+.abeille{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.intro-texte{
+font-family: 'Montserrat', sans-serif;
+line-height: 20px;
+
+}
+.intro-texte2{
+font-family: 'Montserrat', sans-serif;
+line-height: 20px;
+
+}
+.article-texte{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+
+}
+.article-gris-texte{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+}

@@ -13,6 +13,7 @@ header {
   -moz-border-radius: 0px 0px 40px 40px;
   -webkit-border-radius: 0px 0px 40px 40px;
   border: 0px none #000000;
+
 }
 
 .logo {
@@ -20,20 +21,29 @@ header {
   padding-right: 25px;
 }
 .titre{
-  background-image: url(images/abeille1.jpg);
-      background-size: cover;
+  margin-bottom: 50px;
+background: #efefef url('images/abeille1.jpg') top center no-repeat;
+background-size: cover;
+min-height: 30vh;
+display: flex;
+align-items: center;
+  border-radius: 0px 0px 40px 40px;
+
+}
+.flou{
+  max-width: 100%;
 
 
 }
 
-.titre p {
-  width: 100%;
-      margin : auto;
+
 
 }
 
 .video{
 text-align: center;
+
+
 }
 
 
@@ -57,11 +67,30 @@ article {
 
 
 }
+.intro2{
+  display: block;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  border: 0px none #000000;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #efefef url('images/abeille4-flou.jpg') top center no-repeat;
+  background-size: cover;
 
+}
 .intro-image{
-display: flex;
-max-width: 400px;
 
+max-height: 400px;
+max-width: 800px;
+border-radius: 40px 40px 40px 40px;
+-moz-border-radius: 40px 40px 40px 40px;
+-webkit-border-radius: 40px 40px 40px 40px;
 
 
 }
@@ -71,9 +100,15 @@ display: flex;
 
 
 }
-.intro-image-top{
-
-
+.intro-texte p {
+margin-left: 25px;
+margin-right: 60px;
+}
+.intro-texte2 p {
+margin-left: 25px;
+margin-right: 60px;
+margin-top: 80px;
+margin-bottom: 80px;
 }
 .abeille {
   background-color: white;
@@ -106,25 +141,33 @@ display: flex;
   background-color: white;
   padding-top: 50px;
   padding-bottom: 1px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .article img {
-  display: block;
+  display: table-cell;
       margin-left: auto;
       margin-right: auto;
       max-width: 150px;
 
 }
-.article-texte {
-  max-width: 350px;
+.article-texte  {
+  max-width: 800px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  margin: 50px;
+
 }
 .article-gris {
   background-color:rgb(245, 245, 245);
 
   padding-top: 50px;
   padding-bottom: 1px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .article-gris img {
   display: block;
@@ -134,10 +177,20 @@ display: flex;
 
 }
 .article-gris-texte {
-  max-width: 350px;
+  max-width: 800px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  margin: 50px;
+}
+
+.article-image{
+  max-height: 400px;
+  max-width: 800px;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+
 }
 h2 {
   padding: 20px;
